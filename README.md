@@ -2,8 +2,8 @@
 
 High performance readline module
 
-Tested on Macbook Pro (SSD): ~3.38x faster than built-in readline (1GB File)
-Tested on Centos (HD): ~3.78x faster than built-in readline (1GB-2GB File)
+- Tested on Macbook Pro (SSD): ~3.38x faster than built-in readline (1GB File)
+- Tested on Centos (HD): ~3.78x faster than built-in readline (1GB-2GB File)
 
 Support both pub-sub and callback
 
@@ -40,7 +40,10 @@ default options: `{ encoding: 'utf8', highWaterMark: 512 * 1024 }`
 
 *highWaterMark is buffer size
 
-# TODOs
+# Tests
 
-Unit test
-Integrity test
+Unit test : `npm test`
+
+Performance test: `node {module}/test/performance-test.js {file}`
+
+# TODOs

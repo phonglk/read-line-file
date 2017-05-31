@@ -32,7 +32,8 @@ function createReporter() {
 const readline = require("readline");
 const readLineFile = require('../lib/read-line-file');
 
-function runCase(file, cb = () => {}) {
+function runCase(file, cb) {
+  cb = cb || () => {};
   console.log(file);
   let rlp;
   const rl = readline.createInterface({
@@ -66,9 +67,10 @@ function runCase(file, cb = () => {}) {
     //   .on('error', (err) => console.log(err));
   }
 }
-
-if (process.argv[2]) {
-  runCase(path.join(process.env.PWD, process.argv[2]));
+let argvPath = process.argv[2];
+if (argvPath) {
+  if (argvPath[0] !== '/') argvPath = path.join(process.env.PWD, argvPath);
+  runCase(argvPath);
 } else {
   runCase(bigFilePath);
 }

@@ -1,13 +1,13 @@
 {
   "name": "read-line-file",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "High performance Read Line for File, faster than built-in readline about 3x",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./test/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/phonglk/read-line-file/issues"
   },
-  "homepage": "https://github.com/phonglk/read-line-file#readme"
+  "homepage": "https://github.com/phonglk/read-line-file#readme",
+  "dependencies": {
+    "mocha": "^3.4.2"
+  }
 }

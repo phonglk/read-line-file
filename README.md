@@ -7,6 +7,8 @@ Tested on Centos (HD): ~3.78x faster than built-in readline (1GB-2GB File)
 
 Support both pub-sub and callback
 
+install `npm install read-line-file`
+
 # Usage
 ## callbacks
 

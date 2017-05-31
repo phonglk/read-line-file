@@ -4,6 +4,7 @@ High performance readline module
 
 - Tested on Macbook Pro (SSD): ~3.38x faster than built-in readline (1GB File)
 - Tested on Centos (HD): ~3.78x faster than built-in readline (1GB-2GB File)
+- Windows 7 (SSD): ~1.3x faster (1GB File)
 
 Support both pub-sub and callback
 

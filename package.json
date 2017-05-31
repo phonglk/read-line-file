@@ -1,0 +1,27 @@
+{
+  "name": "read-line-file",
+  "version": "1.0.0",
+  "description": "High performance Read Line for File, faster than built-in readline about 3x",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phonglk/read-line-file.git"
+  },
+  "keywords": [
+    "readfile",
+    "readline",
+    "performance"
+  ],
+  "author": "Khoi-Phong Le",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phonglk/read-line-file/issues"
+  },
+  "homepage": "https://github.com/phonglk/read-line-file#readme"
+}

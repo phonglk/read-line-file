@@ -46,4 +46,9 @@ Unit test : `npm test`
 
 Performance test: `node {module}/test/performance-test.js {file}`
 
+# Known Issues
+
+- The maximum length of line should be less than buffer size (highWaterMark)
+
 # TODOs
+

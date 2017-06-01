@@ -10,6 +10,8 @@ Support both pub-sub and callback
 
 install `npm install read-line-file`
 
+No deps.
+
 # Usage
 ## callbacks
 

@@ -1,4 +1,5 @@
-[![NPM](https://nodei.co/npm/read-line-file.png)](https://npmjs.org/package/read-line-file)
+[![https://nodei.co/npm/read-line-file.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/read-line-file.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/read-line-file)
+
 
 # ReadLineFile
 

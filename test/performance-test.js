@@ -33,7 +33,7 @@ const readline = require("readline");
 const readLineFile = require('../lib/read-line-file');
 
 function runCase(file, cb) {
-  cb = cb || () => {};
+  cb = cb || (() => {});
   console.log(file);
   let rlp;
   const rl = readline.createInterface({

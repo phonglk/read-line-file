@@ -7,6 +7,7 @@ install `npm install read-line-file`
 - Callback or subscribe to event, your choice
 - No deps
 - Order is guaranteed
+- Limited Pause/Resume
 
 ## Performance
 
@@ -27,9 +28,31 @@ RECOMMEND for a bit faster
 
 which events are: `line`, `close`, `error`
 
+## Pause/Resume
+
+readLineFile return an object which has `pause()` and `resume()` methods which help to control the flow
+
+Almot like built-in `readline`, `pause()` do not guaranteed the event `line` will be stopped, It still flushing the buffer out until the buffer is empty.
+
+Example
+
+```javascript
+const rlf = readLineFile(file,
+  (line) => {
+    if (memoryIsNearThreshold) {
+      rlf.pause();
+      ...
+      rlf.resume();
+    }
+  },
+  ...
+)
+```
+
 # Example
 
-```const readLineFile = require("read-line-file");
+```javascript
+const readLineFile = require("read-line-file");
 readLineFile(file,
   (line) => processLine(line),
   () => console.log('close'),

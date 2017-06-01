@@ -1,6 +1,6 @@
 {
   "name": "read-line-file",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "High performance Read Line for File, faster than built-in readline about 3x",
   "main": "index.js",
   "directories": {

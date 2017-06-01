@@ -1,8 +1,8 @@
+[![NPM](https://nodei.co/npm/read-line-file.png)](https://npmjs.org/package/read-line-file)
+
 # ReadLineFile
 
 High performance readline module for file, better than built-in one.
-
-install `npm install read-line-file`
 
 - Callback or subscribe to event, your choice
 - No deps
